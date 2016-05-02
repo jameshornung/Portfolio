@@ -272,9 +272,6 @@ footer{
 }
 
 @media screen and (max-width: 768px){
-	#container{
-		
-	}
 
 	#wrapper{
 		width: 90%;
@@ -322,9 +319,68 @@ footer{
 }
 
 @media screen and (max-width: 640px){
-	#container{
-		background: black;
+	#wrapper{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		box-sizing: border-box;
+		margin-bottom: 70px;
 	}
+
+	#top-content{
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		box-sizing: border-box;
+	}
+
+	#main{
+		width: 100%;
+		margin-bottom: 10px;
+		float: none;
+		box-sizing: border-box;
+	}
+
+	#connect-with-me{
+		width: 100%;
+		float: none;
+		box-sizing: border-box;
+	}
+
+	#links{
+		display: flex;
+		justify-content: space-between;
+		line-height: 25px;
+		height: 25px;
+		float: left;
+		width:80%;
+		text-align: center;
+		margin-left: 10%;
+	}
+
+	#logo-container{
+		padding-left: 0px;
+	}
+
+	#name{
+		width: 100%;
+		font-size: 11px;
+	}
+
+	h1{
+		padding-top: 11px;
+	}
+
+	#headshot{
+		height: initial;
+		width: 80%;
+		padding-left: 10%;
+		padding-bottom: 10px;
+	}
+
+
+
+	
 	
 }
 
