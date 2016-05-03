@@ -265,6 +265,10 @@ footer{
 	color: #ffffff;
 }
 
+a{
+	text-decoration: none;
+}
+
 @media screen and (max-width: 980px){
 	#container{
 		
@@ -293,6 +297,7 @@ footer{
 		margin-bottom: 10px;
 		float: none;
 		box-sizing: border-box;
+		overflow: auto;
 	}
 
 	#connect-with-me{
@@ -315,6 +320,92 @@ footer{
 
 	h1{
 		padding-top: 11px;
+	}
+
+	#main-content{
+		box-sizing: border-box;
+		overflow: auto;
+	}
+
+	.portfolio-links{
+		width: 100%;
+		color: #ffffff;
+		font-family: Georgia, Times, "Times New Roman", serif;
+		text-decoration: none;
+	}
+
+	.portfolio-pics{
+		width: 100%;
+	}
+
+	#hangman{
+		width: 80%;
+		margin-left: 10%;
+		float: none;
+		margin-top: 10px;
+		text-decoration: none;
+		height: initial;
+		margin-bottom: initial;
+	}
+
+	#rpg{
+		width: 80%;
+		margin-left: 10%;
+		float: none;
+		margin-top: 10px;
+		text-decoration: none;
+		height: initial;
+		margin-bottom: initial;
+	}
+
+	#trivia{
+		width: 80%;
+		margin-left: 10%;
+		float: none;
+		margin-top: 10px;
+		text-decoration: none;
+		height: initial;
+		margin-bottom: initial;
+	}
+
+	#rutgers{
+		width: 80%;
+		margin-left: 10%;
+		float: none;
+		margin-top: 10px;
+		text-decoration: none;
+		height: initial;
+		margin-bottom: initial;
+	}
+
+	#rock{
+		width: 80%;
+		margin-left: 10%;
+		float: none;
+		margin-top: 10px;
+		text-decoration: none;
+		height: initial;
+		margin-bottom: initial;
+	}
+
+	#hang{
+		width: 100%;
+	}
+
+	#game{
+		width: 100%;
+	}
+
+	#trivia-game{
+		width: 100%;
+	}
+
+	#info-widget{
+		width: 100%;
+	}
+
+	#rock-paper{
+		width: 100%;
 	}
 }
 
@@ -339,6 +430,7 @@ footer{
 		margin-bottom: 10px;
 		float: none;
 		box-sizing: border-box;
+		overflow: auto;
 	}
 
 	#connect-with-me{
@@ -376,6 +468,57 @@ footer{
 		width: 80%;
 		padding-left: 10%;
 		padding-bottom: 10px;
+	}
+
+	#main-content{
+		box-sizing: border-box;
+		overflow: auto;
+	}
+
+	.portfolio-links{
+		width: 100%;
+	}
+
+
+	#hangman{
+		width: 80%;
+		margin-left: 10%;
+		float: none;
+		padding-top: 10px;
+		text-decoration: none;
+		overflow: auto;
+	}
+
+	#rpg{
+		width: 80%;
+		margin-left: 10%;
+		float: none;
+		padding-top: 10px;
+		text-decoration: none;
+	}
+
+	#trivia{
+		width: 80%;
+		margin-left: 10%;
+		float: none;
+		padding-top: 10px;
+		text-decoration: none;
+	}
+
+	#rutgers{
+		width: 80%;
+		margin-left: 10%;
+		float: none;
+		padding-top: 10px;
+		text-decoration: none;
+	}
+
+	#rock{
+		width: 80%;
+		margin-left: 10%;
+		float: none;
+		padding-top: 10px;
+		text-decoration: none;
 	}
 
 
