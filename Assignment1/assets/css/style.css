@@ -426,7 +426,8 @@ a{
 	}
 
 	#main{
-		width: 100%;
+		width: 80%;
+		margin-left: 10%;
 		margin-bottom: 10px;
 		float: none;
 		box-sizing: border-box;
@@ -434,9 +435,10 @@ a{
 	}
 
 	#connect-with-me{
-		width: 100%;
+		width: 80%;
 		float: none;
 		box-sizing: border-box;
+		margin-left: 10%;
 	}
 
 	#links{
@@ -487,6 +489,7 @@ a{
 		padding-top: 10px;
 		text-decoration: none;
 		overflow: auto;
+
 	}
 
 	#rpg{
